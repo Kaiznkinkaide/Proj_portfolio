@@ -1,0 +1,379 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Gothic";
+    src: url("../fonts/Didact_Gothic/DidactGothic-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Fjalla";
+    src: url("../fonts/Fjalla_One/FjallaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Work";
+    src: url("../fonts/Work_Sans/static/WorkSans-Regular.ttf");
+}
+
+/* ----------section_start-------- */
+.Head {
+    height: 122vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start {
+    padding-bottom: 11vh;
+    width: 34vw;
+    height: 104vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start h3 {
+    font-family: Work;
+    font-size: 0.9vh;
+}
+
+.start h2 {
+    font-weight: 400;
+    padding-top: 2.5vh;
+    width: 17vw;
+    height: 32vh;
+    text-align: center;
+    font-family: Gothic;
+    text-transform: uppercase;
+    font-size: 6.5vh;
+}
+
+.start img {
+    padding-top: 1vh;
+    padding-top: 1vh;
+    width: 22vw;
+}
+
+.start h1 {
+    padding-bottom: 3vh;
+    font-weight: 400;
+    padding-top: 2.5vh;
+    width: 40vw;
+    height: 16vh;
+    text-align: center;
+    font-family: Gothic;
+    text-transform: uppercase;
+    font-size: 10.8vh;
+
+}
+
+/* -------section-scroll-one------ */
+
+main {}
+
+.scroll_one {
+
+    background-image: url("../Img/portfolio2.jpg");
+    height: 80vh;
+    width: 99vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.scrollbox_text {
+    width: 83vw;
+    height: 81vh;
+    font-family: Gothic;
+    font-weight: 400;
+    color: white;
+    padding-top: 17vh;
+    padding-left: 29vw;
+}
+
+.scrollbox_text h2 {
+    font-weight: 200;
+    font-size: 9.2vh;
+    text-transform: uppercase;
+    padding-bottom: 4vh;
+}
+
+.zwei_neunzehn {
+    font-family: Work;
+    color: #9E9E9E;
+    font-size: 1.5vh;
+
+}
+
+.CP {
+    font-family: Work;
+    color: #9E9E9E;
+    padding-bottom: 4vh;
+    font-size: 1.5vh;
+}
+
+.scrollbox_text button {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Fjalla;
+    font-size: 1.5vh;
+    padding: 14px 22px;
+    border-style: groove;
+    background-color: transparent;
+    border-color: #fff;
+
+}
+
+.zwei_neunzehn::before {
+    content: "---";
+    text-decoration: line-through;
+}
+
+.nummber {
+    position: absolute;
+    bottom: 9vh;
+    left: 163vh;
+    font-family: Fjalla;
+    font-size: 15vh;
+    letter-spacing: -3.3px;
+    color: hsla(0, 3%, 60%, 0.3);
+}
+
+.button:hover+.nummber {
+    color: #fff;
+}
+
+.button:hover {
+
+    background-color: #fff;
+    color: black;
+}
+
+/* --------section_scroll_two------- */
+
+.scroll_two {
+
+    background-image: url("../Img/portfolio3.png");
+    height: 80vh;
+    width: 99vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.scrollbox_text_two {
+    width: 83vw;
+    height: 81vh;
+    font-family: Gothic;
+    font-weight: 400;
+    color: Black;
+    padding-top: 17vh;
+    padding-left: 29vw;
+}
+
+.scrollbox_text_two h2 {
+    font-weight: 200;
+    font-size: 9.2vh;
+    text-transform: uppercase;
+    padding-bottom: 4vh;
+}
+
+
+.scrollbox_text h2 {
+    font-weight: 200;
+    font-size: 9.2vh;
+    text-transform: uppercase;
+    padding-bottom: 4vh;
+}
+
+.zwei_neunzehn {
+    font-family: Work;
+    color: #9E9E9E;
+    font-size: 1.5vh;
+
+}
+
+.CP_two {
+    font-family: Work;
+    color: #666;
+    padding-bottom: 4vh;
+    font-size: 1.5vh;
+}
+
+.button_two {
+    color: black;
+    text-transform: uppercase;
+    font-family: Fjalla;
+    font-size: 1.5vh;
+    padding: 14px 22px;
+    border-style: groove;
+    background-color: transparent;
+    border-color: #fff;
+
+}
+
+
+
+.nummber_two {
+    position: absolute;
+    bottom: 9vh;
+    left: 163vh;
+    font-family: Fjalla;
+    font-size: 15vh;
+    letter-spacing: -3.3px;
+    color: hsla(0, 3%, 60%, 0.3);
+}
+
+.button_two:hover+.nummber_two {
+    color: black;
+}
+
+.button_two:hover {
+
+    background-color: black;
+    color: #fff;
+}
+
+/* -------section_scrollbox_three------- */
+
+
+.scroll_three {
+
+    background-image: url("../Img/portfolio4.jpg");
+    height: 80vh;
+    width: 99vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+/* --------section_scrollbox_fouth------- */
+
+.scroll_four {
+
+    background-image: url("../Img/portfolio5.png");
+    height: 80vh;
+    width: 99vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* --------fifth-------- */
+
+.fifth {
+    background-color: black;
+    height: 100vh;
+    width: 99vw;
+    font-family: Work;
+    font-weight: 400;
+    position: relative;
+}
+
+.fifth h2 {
+    position: absolute;
+    top: 10vh;
+    left: 26vw;
+    color: #fff;
+    width: 57vw;
+    height: 29vh;
+    font-size: 16vh;
+}
+
+.p_fifth_one {
+    position: absolute;
+    bottom: 26vh;
+    right: 30vh;
+    color: #666666;
+    height: 27vh;
+    width: 44vw;
+    font-size: 3.2vh;
+
+}
+
+.p_fifth_two {
+    position: absolute;
+    bottom: 0vh;
+    right: 30vh;
+    color: #fff;
+    height: 27vh;
+    width: 44vw;
+    font-size: 6.5vh;
+
+}
+
+/* -----six------ */
+
+.six {
+    height: 100vh;
+    font-family: Work;
+    font-weight: 400;
+    position: relative;
+}
+
+.last {
+    padding-top: 20vh;
+    font-family: Gothic;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 7.5vh;
+    gap: 7.5vh;
+
+}
+
+.six a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#heart {
+    position: relative;
+    animation: heartbeat 3s infinite;
+    margin: 0 auto;
+    font-size: 5rem;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(.75);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(.75);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(.75);
+    }
+
+    100% {
+        transform: scale(.75);
+    }
+}
